@@ -1,0 +1,234 @@
+{
+  "_meta": {
+    "source": "Tabel Komposisi Pangan Indonesia (TKPI) 2017/2018",
+    "publisher": "Direktorat Gizi Masyarakat, Kementerian Kesehatan RI",
+    "note": "Nilai gizi per 100g BDD (Berat Dapat Dimakan). porsi_lumrah_g = perkiraan porsi wajar sekali makan untuk konteks Indonesia, dipakai sebagai default kalkulasi kombinasi menu.",
+    "disclaimer": "Data resmi pemerintah, untuk edukasi gizi. Bukan pengganti konsultasi ahli gizi/dokter untuk kebutuhan medis khusus."
+  },
+  "kategori": {
+    "karbohidrat": [
+      {
+        "kode": "AR001", "nama": "Beras giling, mentah",
+        "energi_kal": 357, "protein_g": 8.4, "lemak_g": 1.7, "karbohidrat_g": 77.1,
+        "bdd_persen": 100, "porsi_lumrah_g": 100
+      },
+      {
+        "kode": "AP001", "nama": "Nasi (matang)",
+        "energi_kal": 180, "protein_g": 3.0, "lemak_g": 0.3, "karbohidrat_g": 39.8,
+        "bdd_persen": 100, "porsi_lumrah_g": 150,
+        "catatan": "1 centong nasi ±150g"
+      },
+      {
+        "kode": "BR013", "nama": "Kentang, segar",
+        "energi_kal": 62, "protein_g": 2.1, "lemak_g": 0.2, "karbohidrat_g": 13.5,
+        "bdd_persen": 85, "porsi_lumrah_g": 150
+      },
+      {
+        "kode": "AP024", "nama": "Roti putih",
+        "energi_kal": 248, "protein_g": 8.0, "lemak_g": 1.2, "karbohidrat_g": 50.0,
+        "bdd_persen": 100, "porsi_lumrah_g": 60,
+        "catatan": "±2 lembar roti tawar"
+      },
+      {
+        "kode": "AP021", "nama": "Mi basah",
+        "energi_kal": 88, "protein_g": 0.6, "lemak_g": 3.3, "karbohidrat_g": 14.0,
+        "bdd_persen": 100, "porsi_lumrah_g": 200
+      }
+    ],
+    "protein_nabati": [
+      {
+        "kode": "CP077", "nama": "Tempe kedelai murni, mentah",
+        "energi_kal": 201, "protein_g": 20.8, "lemak_g": 8.8, "karbohidrat_g": 13.5,
+        "bdd_persen": 100, "porsi_lumrah_g": 100,
+        "catatan": "Protein hampir setara ayam, harga jauh lebih murah. ±1 papan kecil"
+      },
+      {
+        "kode": "CP076", "nama": "Tempe kedelai murni, goreng",
+        "energi_kal": 350, "protein_g": 24.5, "lemak_g": 26.6, "karbohidrat_g": 10.4,
+        "bdd_persen": 100, "porsi_lumrah_g": 80,
+        "catatan": "Kalori & lemak naik signifikan akibat minyak goreng"
+      },
+      {
+        "kode": "CP061", "nama": "Tahu, mentah",
+        "energi_kal": 80, "protein_g": 10.9, "lemak_g": 4.7, "karbohidrat_g": 0.8,
+        "bdd_persen": 100, "porsi_lumrah_g": 100,
+        "catatan": "±2 potong sedang"
+      },
+      {
+        "kode": "CP062", "nama": "Tahu goreng",
+        "energi_kal": 115, "protein_g": 9.7, "lemak_g": 8.5, "karbohidrat_g": 2.5,
+        "bdd_persen": 100, "porsi_lumrah_g": 100
+      }
+    ],
+    "telur": [
+      {
+        "kode": "HR002", "nama": "Telur ayam ras, segar",
+        "energi_kal": 154, "protein_g": 12.4, "lemak_g": 10.8, "karbohidrat_g": 0.7,
+        "bdd_persen": 89, "porsi_lumrah_g": 55,
+        "catatan": "1 butir ±55g"
+      },
+      {
+        "kode": "HR001", "nama": "Telur ayam kampung, segar",
+        "energi_kal": 174, "protein_g": 10.8, "lemak_g": 14.0, "karbohidrat_g": 1.2,
+        "bdd_persen": 87, "porsi_lumrah_g": 40,
+        "catatan": "1 butir ±40g (lebih kecil dari telur ras)"
+      },
+      {
+        "kode": "HR004", "nama": "Telur ayam ras, bagian putih",
+        "energi_kal": 50, "protein_g": 10.8, "lemak_g": 0.0, "karbohidrat_g": 0.8,
+        "bdd_persen": 100, "porsi_lumrah_g": 100,
+        "catatan": "Pilihan rendah lemak tinggi protein murni, ±3 butir putih telur"
+      },
+      {
+        "kode": "HR003", "nama": "Telur ayam ras, bagian kuning",
+        "energi_kal": 355, "protein_g": 16.3, "lemak_g": 31.9, "karbohidrat_g": 0.7,
+        "bdd_persen": 100, "porsi_lumrah_g": 20,
+        "catatan": "±1 butir kuning telur"
+      }
+    ],
+    "unggas": [
+      {
+        "kode": "FR005", "nama": "Ayam, daging, segar",
+        "energi_kal": 298, "protein_g": 18.2, "lemak_g": 25.0, "karbohidrat_g": 0.0,
+        "bdd_persen": 58, "porsi_lumrah_g": 100,
+        "catatan": "BDD 58% — termasuk kulit, sesuaikan porsi beli. ±1 potong dada/paha"
+      },
+      {
+        "kode": "FR012", "nama": "Bebek (itik), daging, segar",
+        "energi_kal": 321, "protein_g": 16.0, "lemak_g": 28.6, "karbohidrat_g": 0.0,
+        "bdd_persen": 60, "porsi_lumrah_g": 100
+      }
+    ],
+    "daging_merah": [
+      {
+        "kode": "FR025", "nama": "Sapi, daging, kurus, segar",
+        "energi_kal": 174, "protein_g": 19.6, "lemak_g": 10.0, "karbohidrat_g": 0.0,
+        "bdd_persen": 100, "porsi_lumrah_g": 100,
+        "catatan": "Daging sapi tanpa banyak lemak, ±1 potong sedang"
+      },
+      {
+        "kode": "FR023", "nama": "Sapi, babat, segar",
+        "energi_kal": 108, "protein_g": 17.6, "lemak_g": 4.2, "karbohidrat_g": 0.0,
+        "bdd_persen": 100, "porsi_lumrah_g": 100
+      },
+      {
+        "kode": "FR019", "nama": "Kambing, daging, segar",
+        "energi_kal": 149, "protein_g": 16.6, "lemak_g": 9.2, "karbohidrat_g": 0.0,
+        "bdd_persen": 100, "porsi_lumrah_g": 100
+      },
+      {
+        "kode": "FR016", "nama": "Domba, daging, gemuk, segar",
+        "energi_kal": 317, "protein_g": 15.7, "lemak_g": 27.7, "karbohidrat_g": 0.0,
+        "bdd_persen": 100, "porsi_lumrah_g": 100
+      }
+    ],
+    "ikan": [
+      {
+        "kode": "GR007", "nama": "Ikan bandeng, segar",
+        "energi_kal": 123, "protein_g": 20.0, "lemak_g": 4.8, "karbohidrat_g": 0.0,
+        "bdd_persen": null, "porsi_lumrah_g": 100,
+        "catatan": "±1 ekor sedang"
+      },
+      {
+        "kode": "GR050", "nama": "Ikan kembung, segar",
+        "energi_kal": 125, "protein_g": 21.3, "lemak_g": 3.4, "karbohidrat_g": 2.2,
+        "bdd_persen": 80, "porsi_lumrah_g": 100,
+        "catatan": "±1 ekor sedang, ikan budget-friendly tinggi protein"
+      },
+      {
+        "kode": "GR070", "nama": "Ikan tongkol, segar",
+        "energi_kal": 100, "protein_g": 13.7, "lemak_g": 1.5, "karbohidrat_g": 8.0,
+        "bdd_persen": 100, "porsi_lumrah_g": 100
+      },
+      {
+        "kode": "GR030", "nama": "Ikan kakap, segar",
+        "energi_kal": 92, "protein_g": 20.0, "lemak_g": 0.7, "karbohidrat_g": 0.0,
+        "bdd_persen": null, "porsi_lumrah_g": 100,
+        "catatan": "Ikan kelas menengah-atas, rendah lemak tinggi protein"
+      },
+      {
+        "kode": "GR053", "nama": "Ikan patin, segar",
+        "energi_kal": 132, "protein_g": 17.0, "lemak_g": 6.6, "karbohidrat_g": 1.1,
+        "bdd_persen": null, "porsi_lumrah_g": 100
+      }
+    ],
+    "susu_dan_olahan": [
+      {
+        "kode": "JR006", "nama": "Susu sapi, segar",
+        "energi_kal": 61, "protein_g": 3.2, "lemak_g": 3.5, "karbohidrat_g": 4.3,
+        "bdd_persen": 100, "porsi_lumrah_g": 250,
+        "catatan": "±1 gelas (250ml)"
+      },
+      {
+        "kode": "JP009", "nama": "Susu skim, bubuk",
+        "energi_kal": 359, "protein_g": 35.6, "lemak_g": 1.0, "karbohidrat_g": 52.0,
+        "bdd_persen": 100, "porsi_lumrah_g": 30,
+        "catatan": "±3 sendok makan bubuk (bukan 100g — itu terlalu banyak untuk sekali minum)"
+      }
+    ],
+    "sayuran": [
+      {
+        "kode": "DR166", "nama": "Wortel, segar",
+        "energi_kal": 36, "protein_g": 1.0, "lemak_g": 0.6, "karbohidrat_g": 7.9,
+        "bdd_persen": 80, "porsi_lumrah_g": 80
+      },
+      {
+        "kode": "DR097", "nama": "Kacang panjang, segar",
+        "energi_kal": 31, "protein_g": 2.3, "lemak_g": 0.1, "karbohidrat_g": 5.3,
+        "bdd_persen": 92, "porsi_lumrah_g": 80
+      },
+      {
+        "kode": "DR008", "nama": "Bayam, segar",
+        "energi_kal": 16, "protein_g": 0.9, "lemak_g": 0.4, "karbohidrat_g": 2.9,
+        "bdd_persen": 71, "porsi_lumrah_g": 80
+      },
+      {
+        "kode": "DR013", "nama": "Buncis, segar",
+        "energi_kal": 34, "protein_g": 2.4, "lemak_g": 0.3, "karbohidrat_g": 7.2,
+        "bdd_persen": 90, "porsi_lumrah_g": 80
+      }
+    ],
+    "buah": [
+      {
+        "kode": "ER001", "nama": "Alpukat, segar",
+        "energi_kal": 85, "protein_g": 0.9, "lemak_g": 6.5, "karbohidrat_g": 7.7,
+        "bdd_persen": 61, "porsi_lumrah_g": 100,
+        "catatan": "Tinggi lemak sehat, cocok tambahan kalori sehat"
+      },
+      {
+        "kode": "ER004", "nama": "Apel, segar",
+        "energi_kal": 58, "protein_g": 0.3, "lemak_g": 0.4, "karbohidrat_g": 14.9,
+        "bdd_persen": 88, "porsi_lumrah_g": 150,
+        "catatan": "±1 buah ukuran sedang"
+      },
+      {
+        "kode": "ER074", "nama": "Pisang ambon, segar",
+        "energi_kal": 108, "protein_g": 1.0, "lemak_g": 0.8, "karbohidrat_g": 24.3,
+        "bdd_persen": 75, "porsi_lumrah_g": 100,
+        "catatan": "±1 buah sedang"
+      },
+      {
+        "kode": "ER039", "nama": "Jeruk manis, segar",
+        "energi_kal": 45, "protein_g": 0.9, "lemak_g": 0.2, "karbohidrat_g": 11.2,
+        "bdd_persen": 72, "porsi_lumrah_g": 150,
+        "catatan": "±1 buah sedang"
+      },
+      {
+        "kode": "ER073", "nama": "Pepaya, segar",
+        "energi_kal": 46, "protein_g": 0.5, "lemak_g": 12.0, "karbohidrat_g": 12.2,
+        "bdd_persen": 75, "porsi_lumrah_g": 150
+      },
+      {
+        "kode": "ER105", "nama": "Semangka, segar",
+        "energi_kal": 28, "protein_g": 0.5, "lemak_g": 0.2, "karbohidrat_g": 6.9,
+        "bdd_persen": 46, "porsi_lumrah_g": 200
+      },
+      {
+        "kode": "ER054", "nama": "Mangga, segar",
+        "energi_kal": 52, "protein_g": 0.7, "lemak_g": 0.0, "karbohidrat_g": 12.3,
+        "bdd_persen": 65, "porsi_lumrah_g": 150
+      }
+    ]
+  }
+}
+
