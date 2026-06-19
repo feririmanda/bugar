@@ -1,0 +1,638 @@
+{
+  "_meta": {
+    "evidence_basis": "Volume 12-20 set/minggu per kelompok otot (Baz-Valle et al. 2022, J Hum Kinet), frekuensi 2-4x/minggu sama efektif bila volume disetarakan (Schoenfeld et al. 2019, Sports Med)",
+    "disclaimer": "Program berdasarkan prinsip umum exercise science. Hasil individu bervariasi tergantung genetik, nutrisi, recovery, dan konsistensi. Konsultasikan ke dokter sebelum mulai program jika memiliki kondisi medis tertentu.",
+    "progressive_overload_rule": {
+      "kondisi_naik_beban": "User mencapai target_reps maksimum di SEMUA set pada 2 sesi berturut-turut untuk exercise yang sama",
+      "kenaikan_beban": "+2.5kg untuk dumbbell/barbel upper body, +5kg untuk lower body (squat/deadlift), atau +1-2 reps jika bodyweight",
+      "kondisi_naik_reps_bodyweight": "User mencapai target_reps maksimum di semua set pada 2 sesi berturut-turut, dan tidak ada beban tambahan (pure bodyweight) → naikkan reps range +2-3, atau ganti ke variasi lebih sulit (contoh: Push Up biasa → Diamond Push Up)",
+      "kondisi_turun": "User gagal mencapai target_reps minimum di 2+ set pada 2 sesi berturut-turut → turunkan beban 10% atau kembali ke reps range sebelumnya",
+      "sumber": "Prinsip progressive overload standar (double progression model): naikkan reps dalam range dulu, baru naikkan beban saat reps maksimum tercapai konsisten"
+    }
+  },
+  "exercises": {
+    "dada": [
+      {
+        "id": "dd001",
+        "nama": "Push Up",
+        "equipment": [
+          "bodyweight"
+        ],
+        "target_sets": 3,
+        "target_reps": "10-15",
+        "rest_seconds": 60
+      },
+      {
+        "id": "dd002",
+        "nama": "Bench Press (Barbel)",
+        "equipment": [
+          "gym_lengkap"
+        ],
+        "target_sets": 4,
+        "target_reps": "8-12",
+        "rest_seconds": 90
+      },
+      {
+        "id": "dd003",
+        "nama": "Dumbbell Press (Datar)",
+        "equipment": [
+          "dumbbell",
+          "gym_lengkap"
+        ],
+        "target_sets": 3,
+        "target_reps": "8-12",
+        "rest_seconds": 60
+      },
+      {
+        "id": "dd004",
+        "nama": "Incline Push Up (kaki di kursi)",
+        "equipment": [
+          "bodyweight"
+        ],
+        "target_sets": 3,
+        "target_reps": "10-15",
+        "rest_seconds": 60
+      },
+      {
+        "id": "dd005",
+        "nama": "Dumbbell Fly",
+        "equipment": [
+          "dumbbell",
+          "gym_lengkap"
+        ],
+        "target_sets": 3,
+        "target_reps": "10-15",
+        "rest_seconds": 60
+      },
+      {
+        "id": "dd006",
+        "nama": "Cable Fly / Pec Deck",
+        "equipment": [
+          "gym_lengkap"
+        ],
+        "target_sets": 3,
+        "target_reps": "10-15",
+        "rest_seconds": 60
+      }
+    ],
+    "punggung": [
+      {
+        "id": "pg001",
+        "nama": "Pull Up",
+        "equipment": [
+          "bodyweight",
+          "dumbbell",
+          "gym_lengkap"
+        ],
+        "target_sets": 3,
+        "target_reps": "6-10",
+        "catatan": "Butuh pull-up bar, bisa pasang di rumah",
+        "rest_seconds": 90
+      },
+      {
+        "id": "pg002",
+        "nama": "Resistance Band Row",
+        "equipment": [
+          "bodyweight"
+        ],
+        "target_sets": 3,
+        "target_reps": "12-15",
+        "catatan": "Pakai resistance band sebagai pengganti cable row",
+        "rest_seconds": 60
+      },
+      {
+        "id": "pg003",
+        "nama": "Barbell Row",
+        "equipment": [
+          "gym_lengkap"
+        ],
+        "target_sets": 4,
+        "target_reps": "8-12",
+        "rest_seconds": 90
+      },
+      {
+        "id": "pg004",
+        "nama": "Dumbbell Row (satu tangan)",
+        "equipment": [
+          "dumbbell",
+          "gym_lengkap"
+        ],
+        "target_sets": 3,
+        "target_reps": "8-12",
+        "rest_seconds": 60
+      },
+      {
+        "id": "pg005",
+        "nama": "Lat Pulldown",
+        "equipment": [
+          "gym_lengkap"
+        ],
+        "target_sets": 3,
+        "target_reps": "10-12",
+        "rest_seconds": 60
+      },
+      {
+        "id": "pg006",
+        "nama": "Superman Hold",
+        "equipment": [
+          "bodyweight"
+        ],
+        "target_sets": 3,
+        "target_reps": "12-15",
+        "rest_seconds": 60
+      }
+    ],
+    "kaki": [
+      {
+        "id": "kk001",
+        "nama": "Bodyweight Squat",
+        "equipment": [
+          "bodyweight"
+        ],
+        "target_sets": 3,
+        "target_reps": "15-20",
+        "rest_seconds": 90
+      },
+      {
+        "id": "kk002",
+        "nama": "Barbell Squat",
+        "equipment": [
+          "gym_lengkap"
+        ],
+        "target_sets": 4,
+        "target_reps": "8-12",
+        "rest_seconds": 90
+      },
+      {
+        "id": "kk003",
+        "nama": "Goblet Squat (Dumbbell)",
+        "equipment": [
+          "dumbbell",
+          "gym_lengkap"
+        ],
+        "target_sets": 3,
+        "target_reps": "10-15",
+        "rest_seconds": 90
+      },
+      {
+        "id": "kk004",
+        "nama": "Lunges",
+        "equipment": [
+          "bodyweight",
+          "dumbbell",
+          "gym_lengkap"
+        ],
+        "target_sets": 3,
+        "target_reps": "10-12 per kaki",
+        "rest_seconds": 60
+      },
+      {
+        "id": "kk005",
+        "nama": "Romanian Deadlift (Barbel)",
+        "equipment": [
+          "gym_lengkap"
+        ],
+        "target_sets": 3,
+        "target_reps": "8-12",
+        "rest_seconds": 90
+      },
+      {
+        "id": "kk006",
+        "nama": "Romanian Deadlift (Dumbbell)",
+        "equipment": [
+          "dumbbell",
+          "gym_lengkap"
+        ],
+        "target_sets": 3,
+        "target_reps": "10-12",
+        "rest_seconds": 90
+      },
+      {
+        "id": "kk007",
+        "nama": "Leg Press",
+        "equipment": [
+          "gym_lengkap"
+        ],
+        "target_sets": 3,
+        "target_reps": "10-15",
+        "rest_seconds": 90
+      },
+      {
+        "id": "kk008",
+        "nama": "Calf Raise",
+        "equipment": [
+          "bodyweight",
+          "dumbbell",
+          "gym_lengkap"
+        ],
+        "target_sets": 3,
+        "target_reps": "15-20",
+        "rest_seconds": 60
+      },
+      {
+        "id": "kk009",
+        "nama": "Jump Squat",
+        "equipment": [
+          "bodyweight"
+        ],
+        "target_sets": 3,
+        "target_reps": "12-15",
+        "rest_seconds": 90
+      },
+      {
+        "id": "kk010",
+        "nama": "Wall Sit",
+        "equipment": [
+          "bodyweight"
+        ],
+        "target_sets": 3,
+        "target_reps": "30-45 detik",
+        "rest_seconds": 45
+      },
+      {
+        "id": "kk011",
+        "nama": "Single-Leg Calf Raise",
+        "equipment": [
+          "bodyweight"
+        ],
+        "target_sets": 3,
+        "target_reps": "12-15 per kaki",
+        "rest_seconds": 60
+      },
+      {
+        "id": "kk012",
+        "nama": "Bulgarian Split Squat (kaki di kursi)",
+        "equipment": [
+          "bodyweight",
+          "dumbbell"
+        ],
+        "target_sets": 3,
+        "target_reps": "10-12 per kaki",
+        "rest_seconds": 90
+      },
+      {
+        "id": "kk013",
+        "nama": "Glute Bridge",
+        "equipment": [
+          "bodyweight"
+        ],
+        "target_sets": 3,
+        "target_reps": "15-20",
+        "rest_seconds": 45
+      },
+      {
+        "id": "kk014",
+        "nama": "Step Up (kursi/bangku)",
+        "equipment": [
+          "bodyweight",
+          "dumbbell"
+        ],
+        "target_sets": 3,
+        "target_reps": "10-12 per kaki",
+        "rest_seconds": 60
+      }
+    ],
+    "bahu": [
+      {
+        "id": "bh001",
+        "nama": "Pike Push Up",
+        "equipment": [
+          "bodyweight"
+        ],
+        "target_sets": 3,
+        "target_reps": "8-12",
+        "rest_seconds": 60
+      },
+      {
+        "id": "bh002",
+        "nama": "Overhead Press (Barbel)",
+        "equipment": [
+          "gym_lengkap"
+        ],
+        "target_sets": 3,
+        "target_reps": "8-12",
+        "rest_seconds": 90
+      },
+      {
+        "id": "bh003",
+        "nama": "Dumbbell Shoulder Press",
+        "equipment": [
+          "dumbbell",
+          "gym_lengkap"
+        ],
+        "target_sets": 3,
+        "target_reps": "8-12",
+        "rest_seconds": 60
+      },
+      {
+        "id": "bh004",
+        "nama": "Lateral Raise (Dumbbell)",
+        "equipment": [
+          "dumbbell",
+          "gym_lengkap"
+        ],
+        "target_sets": 3,
+        "target_reps": "12-15",
+        "rest_seconds": 60
+      },
+      {
+        "id": "bh005",
+        "nama": "Lateral Raise (Band)",
+        "equipment": [
+          "bodyweight"
+        ],
+        "target_sets": 3,
+        "target_reps": "12-15",
+        "rest_seconds": 60
+      }
+    ],
+    "lengan": [
+      {
+        "id": "ln001",
+        "nama": "Diamond Push Up (Triceps)",
+        "equipment": [
+          "bodyweight"
+        ],
+        "target_sets": 3,
+        "target_reps": "10-15",
+        "rest_seconds": 60
+      },
+      {
+        "id": "ln002",
+        "nama": "Bicep Curl (Dumbbell)",
+        "equipment": [
+          "dumbbell",
+          "gym_lengkap"
+        ],
+        "target_sets": 3,
+        "target_reps": "10-12",
+        "rest_seconds": 60
+      },
+      {
+        "id": "ln003",
+        "nama": "Tricep Dip (kursi/bangku)",
+        "equipment": [
+          "bodyweight"
+        ],
+        "target_sets": 3,
+        "target_reps": "10-15",
+        "rest_seconds": 60
+      },
+      {
+        "id": "ln004",
+        "nama": "Tricep Pushdown (Cable)",
+        "equipment": [
+          "gym_lengkap"
+        ],
+        "target_sets": 3,
+        "target_reps": "10-15",
+        "rest_seconds": 60
+      },
+      {
+        "id": "ln005",
+        "nama": "Hammer Curl (Dumbbell)",
+        "equipment": [
+          "dumbbell",
+          "gym_lengkap"
+        ],
+        "target_sets": 3,
+        "target_reps": "10-12",
+        "rest_seconds": 60
+      },
+      {
+        "id": "ln006",
+        "nama": "Close-Grip Push Up",
+        "equipment": [
+          "bodyweight"
+        ],
+        "target_sets": 3,
+        "target_reps": "10-15",
+        "rest_seconds": 60
+      },
+      {
+        "id": "ln007",
+        "nama": "Bicep Curl (Resistance Band)",
+        "equipment": [
+          "bodyweight"
+        ],
+        "target_sets": 3,
+        "target_reps": "12-15",
+        "rest_seconds": 60
+      },
+      {
+        "id": "ln008",
+        "nama": "Tricep Extension (Band)",
+        "equipment": [
+          "bodyweight"
+        ],
+        "target_sets": 3,
+        "target_reps": "12-15",
+        "rest_seconds": 60
+      },
+      {
+        "id": "ln009",
+        "nama": "Chair Dip Kaki Lurus (Triceps, lebih sulit)",
+        "equipment": [
+          "bodyweight"
+        ],
+        "target_sets": 3,
+        "target_reps": "8-12",
+        "rest_seconds": 60
+      }
+    ],
+    "core": [
+      {
+        "id": "cr001",
+        "nama": "Plank",
+        "equipment": [
+          "bodyweight"
+        ],
+        "target_sets": 3,
+        "target_reps": "30-60 detik",
+        "rest_seconds": 45
+      },
+      {
+        "id": "cr002",
+        "nama": "Hanging Leg Raise",
+        "equipment": [
+          "gym_lengkap",
+          "bodyweight"
+        ],
+        "target_sets": 3,
+        "target_reps": "10-15",
+        "catatan": "Butuh pull-up bar",
+        "rest_seconds": 45
+      },
+      {
+        "id": "cr003",
+        "nama": "Russian Twist",
+        "equipment": [
+          "bodyweight",
+          "dumbbell"
+        ],
+        "target_sets": 3,
+        "target_reps": "15-20 per sisi",
+        "rest_seconds": 45
+      },
+      {
+        "id": "cr004",
+        "nama": "Sit Up",
+        "equipment": [
+          "bodyweight"
+        ],
+        "target_sets": 3,
+        "target_reps": "15-20",
+        "rest_seconds": 45
+      }
+    ]
+  },
+  "program_templates": {
+    "2x_seminggu": {
+      "nama": "Full Body A/B",
+      "deskripsi": "Latihan seluruh tubuh setiap sesi, alternating A dan B. Cocok untuk pemula atau jadwal terbatas.",
+      "hari": [
+        {
+          "label": "Full Body A",
+          "kelompok_otot": [
+            "dada",
+            "punggung",
+            "kaki",
+            "core"
+          ],
+          "exercise_ids": [
+            "dd002",
+            "pg003",
+            "kk002",
+            "bh002",
+            "cr001"
+          ]
+        },
+        {
+          "label": "Full Body B",
+          "kelompok_otot": [
+            "kaki",
+            "punggung",
+            "dada",
+            "core"
+          ],
+          "exercise_ids": [
+            "kk005",
+            "pg005",
+            "dd003",
+            "ln002",
+            "cr003"
+          ]
+        }
+      ]
+    },
+    "3x_seminggu": {
+      "nama": "Push / Pull / Legs (PPL)",
+      "deskripsi": "Split berdasarkan gerakan dorong, tarik, dan kaki. Paling populer untuk hipertrofi.",
+      "hari": [
+        {
+          "label": "Push (Dada, Bahu, Triceps)",
+          "kelompok_otot": [
+            "dada",
+            "bahu",
+            "lengan"
+          ],
+          "exercise_ids": [
+            "dd002",
+            "bh002",
+            "dd005",
+            "ln004",
+            "bh004"
+          ]
+        },
+        {
+          "label": "Pull (Punggung, Biceps)",
+          "kelompok_otot": [
+            "punggung",
+            "lengan"
+          ],
+          "exercise_ids": [
+            "pg003",
+            "pg001",
+            "pg005",
+            "ln002",
+            "ln005"
+          ]
+        },
+        {
+          "label": "Legs (Kaki, Core)",
+          "kelompok_otot": [
+            "kaki",
+            "core"
+          ],
+          "exercise_ids": [
+            "kk002",
+            "kk005",
+            "kk007",
+            "kk008",
+            "cr001"
+          ]
+        }
+      ]
+    },
+    "4x_seminggu": {
+      "nama": "Upper / Lower Split",
+      "deskripsi": "2x upper body, 2x lower body per minggu. Volume lebih tinggi per kelompok otot.",
+      "hari": [
+        {
+          "label": "Upper A",
+          "kelompok_otot": [
+            "dada",
+            "punggung",
+            "bahu"
+          ],
+          "exercise_ids": [
+            "dd002",
+            "pg003",
+            "bh002",
+            "pg005"
+          ]
+        },
+        {
+          "label": "Lower A",
+          "kelompok_otot": [
+            "kaki",
+            "core"
+          ],
+          "exercise_ids": [
+            "kk002",
+            "kk005",
+            "kk008",
+            "cr001"
+          ]
+        },
+        {
+          "label": "Upper B",
+          "kelompok_otot": [
+            "dada",
+            "punggung",
+            "lengan"
+          ],
+          "exercise_ids": [
+            "dd003",
+            "pg001",
+            "ln002",
+            "ln004"
+          ]
+        },
+        {
+          "label": "Lower B",
+          "kelompok_otot": [
+            "kaki",
+            "core"
+          ],
+          "exercise_ids": [
+            "kk007",
+            "kk004",
+            "kk009",
+            "cr003"
+          ]
+        }
+      ]
+    }
+  }
+}

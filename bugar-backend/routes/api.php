@@ -1,8 +1,12 @@
 <?php
 
 use App\Http\Controllers\Api\AuthController;
+use App\Http\Controllers\Api\BodyMetricController;
 use App\Http\Controllers\Api\EmailVerificationController;
 use App\Http\Controllers\Api\MealPlanController;
+use App\Http\Controllers\Api\ProgramController;
+use App\Http\Controllers\Api\ProgressionController;
+use App\Http\Controllers\Api\WorkoutController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -32,6 +36,21 @@ Route::middleware('auth:sanctum')->group(function () {
 
     // ---- Butuh token + email terverifikasi (sesuai CLAUDE.md) ----
     Route::middleware('verified')->group(function () {
+        // Meal plan
         Route::post('/meal-plan/generate', [MealPlanController::class, 'generate']);
+
+        // Program latihan adaptif
+        Route::post('/program/generate', [ProgramController::class, 'generate']);
+
+        // Workout logging
+        Route::get('/workouts', [WorkoutController::class, 'index']);
+        Route::post('/workouts', [WorkoutController::class, 'store']);
+
+        // Rekomendasi progressive overload per exercise
+        Route::get('/exercises/{exerciseId}/progression', [ProgressionController::class, 'show']);
+
+        // Body metrics (BMI, body fat)
+        Route::get('/body-metrics', [BodyMetricController::class, 'index']);
+        Route::post('/body-metrics', [BodyMetricController::class, 'store']);
     });
 });
